@@ -110,6 +110,15 @@ header nav a {
   margin: 20px;
 }
 
+.create-drone-div button {
+  margin: 10px;
+  color: white;
+  background-color: #2081c3;
+  border-style: none;
+  padding: 5px;
+  border-radius: 5px;
+}
+
 /* Update Drone CSS */
 
 .update-drone-background {
@@ -142,4 +151,13 @@ header nav a {
   align-items: center;
   flex-wrap: wrap;
   margin: 20px;
+}
+
+.update-drone-div button {
+  margin: 10px;
+  color: white;
+  background-color: #2081c3;
+  border-style: none;
+  padding: 5px;
+  border-radius: 5px;
 }
