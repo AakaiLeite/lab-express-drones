@@ -36,11 +36,12 @@ header nav a {
   margin: 20px;
 }
 
+/* Drone List CSS */
+
 .drone-list-background {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
   margin: 20px 20px 20px 20px;
 }
 
@@ -58,8 +59,24 @@ header nav a {
 }
 
 .drone-div button {
+  margin: 10px;
+  color: white;
+  background-color: #2081c3;
+  border-style: none;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.drone-div a {
+  text-decoration: none;
+  background-color: #2081c3;
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
   margin: 5px;
 }
+
+/* Create Drone CSS */
 
 .create-drone-background {
   display: flex;
@@ -86,6 +103,40 @@ header nav a {
 }
 
 .create-drone-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+/* Update Drone CSS */
+
+.update-drone-background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100vw;
+  max-height: 100%;
+  min-width: 100vw;
+  min-height: 100vh;
+  background-image: url('/images/create-drone-background.jpg');
+  background-size: 100vw 100%;
+  background-repeat: no-repeat;
+  margin: 0px
+}
+
+.update-form-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 14rem;
+  width: 62rem;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.update-drone-div {
   display: flex;
   flex-direction: column;
   align-items: center;
