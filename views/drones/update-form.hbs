@@ -1,20 +1,24 @@
-<div class="update-drone-header">
-<h2>Update drone: {{drone.name}}</h2>
-</div>
-<div class="update-drone-div">
-<form action="/drones/{{drone._id}}/edit" method="POST">
-    <label>
-        Name:
-        <input type="text" name="name" value="{{drone.name}}"/>
-    </label>
-    <label>
-        Propellers:
-        <input type="number" name="propellers" value="{{drone.propellers}}"/>
-    </label>
-    <label>
-        Max Speed:
-        <input type="number" name="maxSpeed" value="{{drone.maxSpeed}}"/>
-    </label>
-    <button>Save Changes</button>
-</form>
+<div class="create-drone-background">
+  <div class="create-form-div">
+    <div class="create-form-header">
+      <h2>Update drone: {{drone.name}}</h2>
+    </div>
+    <div class="create-drone-div">
+      <form action="/drones/{{drone._id}}/edit" method="POST">
+        <label>
+          Name:
+          <input type="text" name="name" value="{{drone.name}}" />
+        </label>
+        <label>
+          Propellers:
+          <input type="number" name="propellers" value="{{drone.propellers}}" />
+        </label>
+        <label>
+          Max Speed:
+          <input type="number" name="maxSpeed" value="{{drone.maxSpeed}}" />
+        </label>
+        <button>Save Changes</button>
+      </form>
+    </div>
+  </div>
 </div>
